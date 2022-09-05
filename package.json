@@ -1,13 +1,11 @@
 {
-  "//": [
-    "This isn't the official package.json for Dart Sass. It's just used to ",
-    "install dependencies used for testing the Node API. It defines a package",
-    "name to enable GitHub's dependency graph tracking."
-  ],
   "name": "@bytedo/sass",
   "version": "1.54.8",
   "main": "index.js",
-  "devDependencies": {
+  "exports": {
+    "default": "./index.js"
+  },
+  "dependencies": {
     "immutable": "^4.0.0"
   }
 }
