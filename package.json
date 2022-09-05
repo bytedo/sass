@@ -1,7 +1,13 @@
 {
   "name": "@bytedo/sass",
   "version": "1.54.8",
+  "description": "sass的精简版",
+  "author": "yutent <yutent.io@gmail.com>",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bytedo/sass.git"
+  },
   "exports": {
     "default": "./index.js"
   },
